@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    background-color: #f6f7fb;
+}
+
+
+/* Header CSS Starts */
+header{
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+}
+.header-wrapper{   
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header-wrapper{
+    display: flex;
+    align-items: center;
+}
+#logout{
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}
+.company-logo-wrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px
+}
+.website-name{
+    font-size: 26px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+.menu-items-wrapper{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+.highlight{
+    color: #20b883;
+    border-bottom: 3px solid #20b883;
+}
+/* Header CSS Ends */
+
+
+/* Main CSS Starts */
+main{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 65px;
+    padding: 0 8% 4%;
+}
+.main-heading{
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.main-section-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.left-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+}
+.left-heading{
+    display: block;
+    font-size: 1.3em;
+    margin: 0;
+}
+.left-para{
+    font-size: 16px;
+}
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    /* background-color: coral; */
+}
+.input-checkbox{
+
+}
+.right-section-wrapper{
+    width: 88%;
+}
+table{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border-spacing: 0px 4px;
+}
+.timePara{
+    margin: 0;
+    font-size: 14px;
+}
+tbody{
+    background-color: #fff;
+}
+.first-row{
+    background-color: #F6F7FB;
+}
+th{
+    padding: 14px;
+}
+td{
+    padding: 14px;
+}
+.lightGrey{
+    color: #908E8C
+}
+.second-data-cell{
+    width: 300px;
+}
+tr>td:nth-child(1){
+    width: 200px
+}
+tr>td:nth-child(2){
+    width: 350px
+}
+/* Main CSS Ends */

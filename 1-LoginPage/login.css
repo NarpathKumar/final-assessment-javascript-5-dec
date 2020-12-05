@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    background-color: #f6f7fb;
+}
+
+
+/* Header CSS Starts */
+header{
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+}
+.header-wrapper{   
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+.company-logo-wrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px
+}
+.website-name{
+    font-size: 26px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+.menu-items-wrapper{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+/* Header CSS Ends */
+
+
+/* Main CSS Starts */
+main{
+    margin-top: 65px;
+}
+.main-wrapper{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 120px auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+    padding-top: 48px;
+}
+form{
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 250px;
+}
+.form-title{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+.input-field{
+    width: 100%;
+    padding: 20px 0px 8px 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+.login-button{
+    width: 100%;
+    border-radius: 30px;
+    padding: 18px 36px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 48px;
+    text-transform: capitalize;
+}
+::placeholder{
+    color: #828482;
+    font-size: 16px;
+}
+#signup{
+    float: right;
+    text-align: right;
+    cursor: pointer;
+    border-bottom: 0.1px solid #ccc;
+    padding: 10px 0px 8px 0px ;
+    margin-top: 20px;
+}
+/* Main CSS Ends */
